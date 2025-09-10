@@ -40,11 +40,11 @@
             <!-- Add form element -->
             <form action="">
                 <label for="name">Enter full name:</label>
-                <input type="text" placeholder="Your Name" name="name" id="name" class="form-input"/>
+                <input type="text" placeholder="Your Name" name="name" id="name" class="form-input" />
                 <label for="email">Enter email address</label>
-                <input type="email" placeholder="Email Address" name="email" id="email" class="form-input"/>
+                <input type="email" placeholder="Email Address" name="email" id="email" class="form-input" />
                 <label for="phone">Enter a telephone number:</label>
-                <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input"/>
+                <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input" />
                 <p>
                     Have you worked out with a trainer before?
                     <input type="radio" name="trainer-confirm" id="trainer-yes">
@@ -69,7 +69,9 @@
     <section id="what-we-do" class="intro">
         <h2 class="section-title primary-border">What We Do</h2>
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, modi. Error optio laborum ipsa cupiditate dolorem, est placeat. Nulla ullam veritatis vero excepturi, cupiditate eligendi! Reiciendis, pariatur illo! Praesentium, nam?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, modi. Error optio laborum ipsa cupiditate
+            dolorem, est placeat. Nulla ullam veritatis vero excepturi, cupiditate eligendi! Reiciendis, pariatur illo!
+            Praesentium, nam?
         </p>
     </section>
 
@@ -79,7 +81,7 @@
         <div>
             <img src="./assets/images/step-1.svg" alt="" srcset="">
             <h3>Step 1: <span>Fill Out the Form Above.</span></h3>
-                <p>You're already here, so why not?</p>
+            <p>You're already here, so why not?</p>
         </div>
 
         <div>
@@ -102,8 +104,43 @@
     </section>
 
     <!-- "meet the trainers" section -->
-    <section>
-        <h2>Meet The Trainers</h2>
+    <section id="your-trainers" class="trainers">
+        <h2 class="section-title primary-border">Meet The Trainers</h2>
+        <!-- first trainer bio -->
+        <article class="trainer">
+            <img src="./assets/images/trainer-1.jpg" alt="Arron Stephens in his workout cloths, ready to pump iron"
+                srcset="">
+            <div class="trainer-bio text-left">
+                <h3>Arron Stephens</h3>
+                <h4>Speed / Strength</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio doloremque dolore, culpa, dolorum
+                    illo, excepturi quis facere rem ullam quasi sed placeat cum similique minus molestias pariatur ipsam
+                    ut laboriosam.</p>
+            </div>
+        </article>
+        <!-- second trainer bio -->
+        <article class="trainer">
+            <div class="trainer-bio text-right">
+                <h3>Joanna Gill</h3>
+                <h4>Endurance</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, est ab expedita doloremque eius nisi
+                    cupiditate sint. Quo et dolore expedita, soluta obcaecati quod laboriosam quis vero natus.
+                    Laboriosam, illo.</p>
+            </div>
+            <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill colling after a workout" srcset="">
+        </article>
+        <!-- third trainer bio -->
+        <article class="trainer">
+            <img src="./assets/images/trainer-3.jpg" alt="Harry Smith wearing a headband and lifting comically small pink weights"
+                srcset="">
+            <div class="trainer-bio text-left">
+                <h3>Harry "the headband" Smith</h3>
+                <h4>Strength</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio doloremque dolore, culpa, dolorum
+                    illo, excepturi quis facere rem ullam quasi sed placeat cum similique minus molestias pariatur ipsam
+                    ut laboriosam.</p>
+            </div>
+        </article>
     </section>
     <!-- "reach out" section -->
     <h2>Reach Out</h2>
